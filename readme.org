@@ -14,9 +14,8 @@ test for both m4 and proc.
 If you want to have a re-usable dataset for proc testing, we have
 a big and a small set of runs derived from the testdata.
 
-1.  [[https://s3-us-gov-west-1.amazonaws.com/marathon/AUDIT_small.zip ] Small ~(1mb/10mb) dataset] 
-2.  [[https://s3-us-gov-west-1.amazonaws.com/marathon/AUDIT_big.zip] Large ~(50mb/500mb?) dataset]
-
+1.  [[https://s3-us-gov-west-1.amazonaws.com/marathon/AUDIT_small.zip][Small ~(1mb/10mb) dataset]]
+2.  [[https://s3-us-gov-west-1.amazonaws.com/marathon/AUDIT_big.zip][Large ~(50mb/500mb?) dataset]]
 Upon extraction, you should be able to run proc.example/run-sample! on either root folder, since they
 contain the canonical audit trail files from a run.
 
