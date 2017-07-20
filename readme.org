@@ -20,6 +20,12 @@ a big and a small set of runs derived from the testdata.
 1. [Small ~(1mb/10mb) dataset [[https://s3-us-gov-west-1.amazonaws.com/marathon/AUDIT_small.zip]]]
 2. [Large ~(50mb/500mb?) dataset  [[https://s3-us-gov-west-1.amazonaws.com/marathon/AUDIT_big.zip]]]
 
+Upon extraction, you should be able to run proc.example/run-sample! on either root folder, since they
+contain the canonical audit trail files from a run.
+
+** interests
+interests.clj is included to provide a basis for rendering or processing the notional data using proc.
+
 * License
 
 Copyright fs-tom 2012-2017
