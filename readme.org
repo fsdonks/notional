@@ -1,6 +1,3 @@
-[[https://img.shields.io/clojars/v/spork.svg]]
-[[[https://clojars.org/spork]] Clojars Project]
-
 This is a collection of notional testdata for 
 proc and m4.  Due to size constraints, large 
 testdata will be hosted outside of this repo.
@@ -17,8 +14,8 @@ test for both m4 and proc.
 If you want to have a re-usable dataset for proc testing, we have
 a big and a small set of runs derived from the testdata.
 
-1. [Small ~(1mb/10mb) dataset [[https://s3-us-gov-west-1.amazonaws.com/marathon/AUDIT_small.zip]]]
-2. [Large ~(50mb/500mb?) dataset  [[https://s3-us-gov-west-1.amazonaws.com/marathon/AUDIT_big.zip]]]
+1. Small ~(1mb/10mb) dataset [[https://s3-us-gov-west-1.amazonaws.com/marathon/AUDIT_small.zip]]
+2. Large ~(50mb/500mb?) dataset  [[https://s3-us-gov-west-1.amazonaws.com/marathon/AUDIT_big.zip]]
 
 Upon extraction, you should be able to run proc.example/run-sample! on either root folder, since they
 contain the canonical audit trail files from a run.
