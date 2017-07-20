@@ -1,0 +1,39 @@
+[[https://img.shields.io/clojars/v/spork.svg]]
+[[[https://clojars.org/spork]] Clojars Project]
+
+This is a collection of notional testdata for 
+proc and m4.  Due to size constraints, large 
+testdata will be hosted outside of this repo.
+
+* Developer Notes
+testdata*.xlsx is a canonical m4 project input file.
+Future versions will have tsv-based, .gz, and binary 
+inputs.  For now, we conform to the legacy implementation (xlsx).
+
+It should be robust enough to serve as a commensurate stress 
+test for both m4 and proc.
+
+** proc-specific data
+If you want to have a re-usable dataset for proc testing, we have
+a big and a small set of runs derived from the testdata.
+
+1. [Small ~(1mb/10mb) dataset [[https://s3-us-gov-west-1.amazonaws.com/marathon/AUDIT_small.zip]]]
+2. [Large ~(50mb/500mb?) dataset  [[https://s3-us-gov-west-1.amazonaws.com/marathon/AUDIT_big.zip]]]
+
+* License
+
+Copyright fs-tom 2012-2017
+
+Spoon's Operations Research Kit and encompassing libraries are licensed under the 
+Eclipse Public License v 1.0.
+
+Segments of inline open source code that have both license and attributions 
+provided for the gracious authors.  Please contact me via github if I missed someone and 
+need to issue a correction.
+
+
+
+ 
+
+ 
+
